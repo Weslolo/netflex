@@ -10,7 +10,7 @@ dotenv.config();
 
 mongoose
 .connect(process.env.MONGO_URL,{
-    usecreatendex: true,  
+    autoIndex: true,  
   useNewUrlParser: true,
  useUnifiedTopology: true,
     
